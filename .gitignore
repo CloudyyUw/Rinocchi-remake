@@ -1,0 +1,4 @@
+/.env
+/db.sqlite
+/node_modules
+/yarn.lock
