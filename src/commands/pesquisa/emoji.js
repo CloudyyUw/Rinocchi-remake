@@ -12,7 +12,7 @@ module.exports = {
         const emojiObj = await shardData.GetEmojiByName(client, args[0]);
         if(message.member.hasPermission("MANAGE_EMOJIS")){
             const emb = new MessageEmbed()
-            .setTitle
+            .setTitle(`Emoji: ${args[0]}`)
         }
     }
 }
