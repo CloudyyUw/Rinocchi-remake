@@ -15,7 +15,7 @@ module.exports = {
             .setTitle(`Emoji: ${args[0]}`)
             .setImage(emojiObj.url)
             message.inlineReply(emb).then(async msg => {
-                
+                msg.react("")
             })
         }
     }
