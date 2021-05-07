@@ -2,3 +2,4 @@
 /db.sqlite
 /node_modules
 /yarn.lock
+/tables_data.txt
