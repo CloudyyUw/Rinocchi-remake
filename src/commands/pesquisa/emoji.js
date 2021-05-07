@@ -13,6 +13,7 @@ module.exports = {
         if(message.member.hasPermission("MANAGE_EMOJIS")){
             const emb = new MessageEmbed()
             .setTitle(`Emoji: ${args[0]}`)
+            .setImage(emojiObj.url)
         }
     }
 }
