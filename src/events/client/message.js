@@ -63,7 +63,7 @@ module.exports = async (client, message) => {
             //--
             const cmd = args.shift().toLowerCase();
             if (cmd.length == 0) {
-                if (message.content.startsWith(`<@${client.user.id}>`)) {
+                if (message.content.startsWith(`<@!${client.user.id}>`) || message.content.startsWith(`<@${client.user.id}>`)) {
                     message.inlineReply(`Meu prefixo neste servidor é \`${prefixo.value}\`, use o comando **cmds** para a lista de comandos`);
                     return;
                 }
@@ -108,7 +108,7 @@ module.exports = async (client, message) => {
             //--
             const cmd = args.shift().toLowerCase();
             if (cmd.length == 0) {
-                if (message.content.startsWith(`<@${client.user.id}>`)) {
+                if (message.content.startsWith(`<@!${client.user.id}>`) || message.content.startsWith(`<@${client.user.id}>`)) {
                     message.inlineReply(`Meu prefixo neste servidor é \`${prefixo}\``);
                     return;
                 }
