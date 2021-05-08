@@ -109,7 +109,7 @@ module.exports = async (client, message) => {
             const cmd = args.shift().toLowerCase();
             if (cmd.length == 0) {
                 if (message.content.startsWith(`<@${client.user.id}>`)) {
-                    message.inlineReply(`Meu prefixo neste servidor é \`${prefixo}\`, use o comando **cmds** para a lista de comandos`);
+                    message.inlineReply(`Meu prefixo neste servidor é \`${prefixo}\``);
                     return;
                 }
                 return;
