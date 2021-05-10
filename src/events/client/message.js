@@ -1,7 +1,7 @@
 const db = require("../../../util/database"),
     Firebase = require("../../../util/FirebaseConnection"),
     database = Firebase.database(),
-    ms = require("parse-ms"),
+    ms = require("../../../util/parse-ms"),
     { MessageEmbed } = require("discord.js");
 require("../../../util/inlineReply");
 
