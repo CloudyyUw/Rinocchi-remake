@@ -1,10 +1,14 @@
 const { Client, Collection, APIMessage } = require("discord.js"),
     fs = require("fs"),
-    client = new Client();
+    client = new Client(),
+    Locale = require("../util/languages");
 
 client.commands = new Collection();
 client.aliases = new Collection();
 client.categories = new fs.readdirSync('./src/commands');
+const language = new Locale();
+language.start();
+client.languages = language;
 
 ["aliases", "commands"].forEach(x => client[x] = new Collection());
 ["commands", "events"].forEach(x => require(`./start/${x}`)(client))
