@@ -1,6 +1,0 @@
-{
-    "mention": "Meu prefixo neste servidor é `{{prefix}}`",
-    "cooldown": {
-        "command": "Aguarde `{{seconds}}` segundos para executar um comando novamente."
-    }
-}

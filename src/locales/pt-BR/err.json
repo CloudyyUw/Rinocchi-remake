@@ -1,4 +1,0 @@
-{
-    "unknowcommand": "Comando `{{cmd}}` não encontrado",
-    "runErr": "{{user}} | ocorreu um erro inesperado, por favor tente novamente. Código de erro: `{{message}}`"
-}
