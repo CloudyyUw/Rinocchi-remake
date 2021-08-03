@@ -1,0 +1,30 @@
+{
+    "unknowcommand": {
+        "msg": "Comando `{{cmd}}` não encontrado",
+        "embed": {
+            "title": "Comando não encontrado",
+            "fields": {
+                "aliases": "Sinônimos",
+                "similar": "Comandos similares"
+            }
+        },
+        "null": "Nenhum."
+    },
+    "runErr": "{{user}} | ocorreu um erro inesperado, por favor tente novamente. Código de erro: `{{message}}`",
+    "rpg": {
+        "exists": "Você já tem um personagem criado, use `rpg stats` para ver suas informações ou `rpg help` para ajuda",
+        "unknowclass": "Essa classe não existe, por favor tente novamente."
+    },
+    "pvp": {
+        "nomention": "É necessário mencionar um usuário!",
+        "yourself": "Você não pode batalhar com você mesmo.. ou pode?"
+    },
+    "music": {
+        "no-queue": "Não há nenhuma música tocando."
+    },
+    "v2": {
+        "cooldown": {
+            "command": "Aguarde `{{seconds}}` para executar esse comando novamente."
+        }
+    }
+}

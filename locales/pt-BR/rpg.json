@@ -1,0 +1,85 @@
+{
+    "rpg": {
+        "class": [
+            {
+                "name": "Mago",
+                "id": 1,
+                "description": "Magos podem utilizar magias elementais, podem utilizar **magia branca** mas não **magia escura**.\nEm batalhas preferem utilizar de seus conhecimentos, já que não possuem um grande ataque e que nescessitam de um tempo de recarga.\nMagos podem **criar itens mágicos** e aprimorar os já existentes.\nGostam muito de **ler** para aprenderem.\nSuas magias são **elementais** e de **cura**."
+            },
+            {
+                "name": "Arcanista",
+                "id": 2,
+                "description": "O arcanista é um tipo de mago, porém utilizam **magia arcana**, que causam mais dano porém são mais raras de serem encontradas e com alta dificuldade de serem evoluídas.\nOs arcanistas podem **criar itens mágicos**, mas isso leva mais tempo que os **Magos**\nSeu atributo **força** está diretamente ligado a sua **vontade**\nGostam muito de **ler**"
+            },
+            {
+                "name": "Feiticeiro",
+                "id": 3,
+                "description": "Diferente dos Magos e Arcanistas, podem usar **qualquer tipo de magia**, porém seus atributos os tornam semelhantes aos magos.\nGostam de **ler**, mas não tanto."
+            },
+            {
+                "name": "Elfo",
+                "id": 4,
+                "description": "Elfos são seres muito ligados a **natureza**.\nPossuem uma rivalidade com os **Anões**.\nSão maginíficos **arqueiros** e possuem muita **agilidade**\nGostam de **ler**"
+            },
+            {
+                "name": "Eladrin",
+                "id": 5,
+                "description": "Eladrins podem ser confundidos com os Elfos, por serem uma raça que poucas conhecem.\nSão peritos com **espadas longas**, porém com uma **defesa menor** que um paladino\nNão gostam muito de **ler**"
+            },
+            {
+                "name": "Viera",
+                "id": 6,
+                "description": "Mulheres com orelhas, pés e garras de um coelho, com uma aparência exótica, **ágeis** e com os sentidos aguçados, são ótimas **caçadoras**\nConseguem extrair mais benefícios de **itens de cura**\nUtilizam **espadas médias** e com pouca defesa, por não utilizarem **armaduras médias/pesadas** ou **escudos**.\nGostam moderadamente de **ler**"
+            },
+            {
+                "name": "Khajiit",
+                "id": 7,
+                "description": "São assassinos noturnos, muitas vezes pagos para realizarem tal serviço.\nSão **ágeis** e utilizam **adagas** e possuem um bônus de **prata total**\nNão gostam de **ler**, preferem **caçar**."
+            },
+            {
+                "name": "Dragonianos",
+                "id": 8,
+                "description": "Dragões com uma estatura média de um Elfo\nUtilizam de **magia dragoniana** e lutam utilizando **lanças**.\nPodem **criar magias** novas, principalmente **magias arcanas**, em um tempo médio.\nGostam moderadamente de **ler**"
+            },
+            {
+                "name": "Anão",
+                "id": 9,
+                "description": "São ótimos **mineradores** e **ferreiros**, possuem um bônus de **prata total**\nUtilizam **machados** como arma e **armaduras médias**.\nNão gostam nem um pouco de **ler**"
+            },
+            {
+                "name": "Paladinos",
+                "id": 10,
+                "description": "Os guerreiros da justiça, lealdade e bondade, **devotos aos deuses** recebendo uma **proteção divina**.\nLutam utilizando uma **espada** e um **escudo**, apenas utilizando **armaduras pesadas**, possuindo assim, uma **agilidade baixa**.\nGostam pouco de **ler**"
+            }
+        ],
+        "embed": {
+            "title": "Escolha sua classe ou raça:",
+            "desc": "Você tem 2 minutos, responda com o nome da classe"
+        },
+        "loading": {
+            "1": "<a:loading:824330214015631370> configurando usuário...",
+            "2": "<a:loading:824330214015631370> configurando itens...",
+            "3": "<:ok:846828338592743436> {{user}} configurações finalizadas, veja suas informações com `rpg status`"
+        },
+        "itens": [
+            {
+                "name": "Cajado simples",
+                "id": 8105,
+                "damage": 2,
+                "class": [1]
+            },
+            {
+                "name": "Sabre básico",
+                "id": 4290,
+                "damage": 5,
+                "class": [6]
+            },
+            {
+                "name": "Livro de magia para iniciantes",
+                "id": 3549,
+                "damage": 3,
+                "class": [2, 3]
+            }
+        ]
+    }
+}

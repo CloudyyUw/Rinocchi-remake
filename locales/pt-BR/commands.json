@@ -1,0 +1,13 @@
+{
+    "pvp": {
+        "turn": "{{name}}, sua vez",
+        "next": "Próximo: {{name}}",
+        "win": "Ganhador"
+    },
+    "vip": {
+        "music": {
+            "playing": "Tocando: {{name}} - `{{time}}`",
+            "list": "**#{{index}}**: {{name}} | `{{time}}`"
+        }
+    }
+}
