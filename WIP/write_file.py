@@ -6,6 +6,9 @@ Time = time.time()
 file = open(sys.argv[1] + ".yaml", "a")
 
 file.write(sys.argv[2])
+
 file.close()
 
-print("Done in: " + str(time.time() - Time))
+# print("Done in: " + str(time.time() - Time))
+print("start: " + Time + "ms" + " End: " + str(time.time() - Time) + "ms")
+sys.stdout.flush()
